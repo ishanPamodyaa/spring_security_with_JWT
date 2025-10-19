@@ -1,0 +1,9 @@
+spring :
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_seq_jwt
+    username: root
+    password: root
+  jpa :
+    show-sql: true
+    hibernate :
+      ddl-auto : update
